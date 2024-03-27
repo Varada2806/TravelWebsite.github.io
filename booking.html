@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="demo.css">
+
+    <!-- font Awesome CDN -->
+</head>
+<body>
+    <header id="home">
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__logo"><a href="#">T&T</a></div>
+          <ul class="nav__links">
+            <li class="link"><a href="home.html#home">Home</a></li>
+            <li class="link"><a href="home.html#about">About Us</a></li>
+          <li class="link"><a href="home.html#discover">Discover</a>
+            <li class="link"><a href="home.html#gallery">Gallery</a></li> 
+            <li class="link"><a href="home.html#contact">Contact</a></li>
+            <li class="link"><a href="#ticket"><button class="btn" onclick="Clicked1()">Book Appointment</button></a></li>
+          </ul>
+        </div>
+      </nav>
+     <form action="connect.php" method="post"> 
+    <div class="main_bg">
+    <div class="form" >
+     <div class="form-text">
+            <div> <h1><span><img src="assets/art-1.png" alt=""></span>Book Appointment <span><img src="assets/art-1.png" alt=""></span></h1>
+            <p>Booking done on calls or by visit. <br> <br> <br></p>
+        </div>
+
+    
+        <div class="main-form">
+            <div class="name">
+                <span>Your full name </span>
+                <input type="text" placeholder="Name" id="name" name="fullname">
+            </div>
+
+            <div class="email">
+                <span>Your email address </span>
+                <input type="text" placeholder="Email" id="email" name="email">
+            </div>
+
+            <div class="gender" id="gender">
+                    <!-- <---this is the select option--->
+                    <span>Gender</span>
+                    <select name="gender" id="gender" required >
+                        <option value=""><--Gender--></option>
+                        <option value="1">Female</option>
+                        <option value="2">Male</option>
+                    </select>
+                </div>
+
+            <div class="destination">
+                <span>Destination</span>
+                <input type="text" placeholder="destination" id="dest" required name="destination">
+            </div>
+
+            <div class="date">
+                <span>Date of trip</span>
+                <input type="date" placeholder="date" id="date " name="date">
+
+            </div>
+            <div class="ppl" id="ppl">
+                    <!-- <---this is the select option--->
+                    <span>Travel Group</span>
+                    <select name="ppl" id="ppl" required >
+                        <option value=""><--Group Size--></option>
+                        <option value="1">Solo</option>
+                        <option value="2">Couple</option>
+                        <option value="2">Friends</option>
+                        <option value="2">Family</option>
+                        <option value="2">Senior Citizen</option>
+                    </select>
+                </div>
+
+            <div class="number">
+                    <span>Phone number </span>
+                    <input type="number" id="number" placeholder="Write your number here..." required name="number">  
+            </div>
+
+            <div class="budget">
+                    <span>Budget</span>
+                    <input type="number" id="budget" placeholder="Write your budget here..." required name="budget">  
+            </div>
+            
+
+            <div class="btnn" id="button">
+                <button id="send" onclick="message()"> SUBMIT</button>
+            </div>
+
+            </form>
+
+
+            <div class="message">
+                <div class="success" id="success">Registered Successfully Sent!</div>
+                <div class="danger" id="danger">Feilds Can't be Empty!</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <script src="demo.js"> </script>
+</body>
+</html>
