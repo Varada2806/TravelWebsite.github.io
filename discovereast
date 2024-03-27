@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="Discover East.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Discover East</title>
+  </head>
+
+  <body>
+    <header id="home">
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__logo"><a href="#">T&T.</a></div>
+          <ul class="nav__links">
+            <li class="link"><a href="home.html#home">Home</a></li>
+            <li class="link"><a href="home.html#about">About Us</a></li>
+            <li class="link"><a href="home.html#discover">Discover</a></li>
+            <li class="link"><a href="home.html#gallery">Gallery</a></li>
+            <li class="link"><a href="home.html#contact">Contact</a></li>
+            <li class="link search">
+              <span><i class="ri-search-line"></i></span>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container">
+        <h1>East India Tour Packages...</h1>
+        <h4 style="font-size: 1rem;">From verdant tea plantations high up in the mountains to 
+          endangered rhinos in lush green national parks, there’s much to see and do in East India. 
+
+          Kolkata, the capital city of West Bengal, is a melting point of diverse cultures and 
+          home to an eclectic cuisine.
+
+          See the mangroves of Sundarbans, savor the hill station charms of Darjeeling, 
+          explore the dramatic landscapes of the Himalayas, immerse yourself in the serenity of 
+          Gangtok – there are so many things to do in East India.
+
+        </h4>
+
+        
+      </div>
+    </header>
+
+<div class="main">
+
+  <h1> The Tour Package Available....</h1>
+
+
+
+    <div class="cards">
+        <div class="image">
+          <img src="assets/Him.jpg">
+        </div>
+        <div class="title">
+          <h2>Great Himalayas</h2>
+        </div>
+        <div class="des">
+          <p> Gangtok > Kalimpong > Darjeeling</p>
+          <h4 style="text-align: center;"> RS 26000 (5 Nights 6 Days) </h4> 
+          
+          <button onclick="book()">Enquire Now</button>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="image">
+          <img src="assets/Odisha.jpg">
+        </div>
+        <div class="title">
+          <h2>Golden Odisha Tour</h2>
+        </div>
+        <div class="des">
+          <p>Bhubaneshwar > Puri > Konark </p>
+          <h4 style="text-align: center;"> RS 15000 (3 Nights 4 Days) </h4> 
+          
+          <button onclick="book()">Enquire Now</button>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="image">
+          <img src="assets/Bud.jpg">
+        </div>
+        <div class="title">
+          <h2>Buddhist India Tour</h2>
+        </div>
+        <div class="des">
+          <p>Nalanda > Varanasi > Bodhagaya > Rajgir</p>
+          <h4 style="text-align: center;"> RS 21000 (4 Nights 3 Days) </h4> 
+          
+          <button onclick="book()">Enquire Now</button>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="image">
+          <img src="assets/Meghalaya.jpg">
+        </div>
+        <div class="title">
+          <h2>Alluring Meghalaya Arunachal Assam</h2>
+        </div>
+        <div class="des">
+          <p>Shilong > Tezpur > Dirang > Tawang > Guwahati</p>
+          <h4 style="text-align: center;"> RS 23000 (6 Nights 5 Days) </h4> 
+          
+          <button onclick="book()">Enquire Now</button>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="image">
+          <img src="assets/Nor.jpg">
+        </div>
+        <div class="title">
+          <h2>Stunning North-East</h2>
+        </div>
+        <div class="des">
+          <p>Shinlong > Cherrapunjee > Assam > Sikkim > Ziro Valley > Gangtok</p>
+          <h4 style="text-align: center;"> RS 30000 (6 Nights 7 Days) </h4> 
+          
+          <button onclick="book()">Enquire Now</button>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="image">
+          <img src="assets/wb.jpg">
+        </div>
+        <div class="title">
+          <h2>West Bengal Tour</h2>
+        </div>
+        <div class="des">
+          <p>Deomail > Darjeeling > Kolakata > Sunderban Nation Park</p>
+          <h4 style="text-align: center;"> RS 20000 (5 Nights 6 Days) </h4> 
+          
+          <button onclick="book()">Enquire Now</button>
+        </div>
+    </div>
+    </div>
+
+    <script type="text/javascript">
+        function book()
+  {
+    document.location.href="demo.html";
+  }
+      
+    </script>
+  </body>
+</html>
